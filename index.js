@@ -1,18 +1,10 @@
 const { prompt } = require("inquirer");
-const lgImg = require("asciiart-lgImg");
 const db = require("./db");
 require("console.table");
 
 init();
-function init() {
-  const logo = lgImg({ name: "Employee Manager" }).render();
 
-  console.log(logo);
-
-  loadPrompts();
-}
-
-async function loadPrompts() {
+async function init() {
   const { choice } = await prompt([
     {
       type: "list",
