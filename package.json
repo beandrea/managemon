@@ -1,0 +1,26 @@
+{
+  "name": "managemon",
+  "version": "1.0.0",
+  "description": "An employee management application using inquirer and mySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beandrea/managemon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beandrea/managemon/issues"
+  },
+  "homepage": "https://github.com/beandrea/managemon#readme"
+}
